@@ -22,22 +22,22 @@ def mainpart():
 
 
     #STEP 2. Computer and User and Vs Pic
-    computer_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/COMPUTER.png"))
-    user_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/USER.png"))
-    vs_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/VS.png"))
+    computer_img=ImageTk.PhotoImage(Image.open("COMPUTER.png"))
+    user_img=ImageTk.PhotoImage(Image.open("USER.png"))
+    vs_img=ImageTk.PhotoImage(Image.open("VS.png"))
 
     #STEP 3. PICTURE OF ROCK PAPER SCISSOR
-    rock_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/USER ROCK .png"))
-    paper_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/USER PAPER.png"))
-    scissor_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/USER SCISSOR.png"))
+    rock_img=ImageTk.PhotoImage(Image.open("USER ROCK .png"))
+    paper_img=ImageTk.PhotoImage(Image.open("USER PAPER.png"))
+    scissor_img=ImageTk.PhotoImage(Image.open("USER SCISSOR.png"))
 
-    user_default_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/USER QUESTION MARK.png"))
+    user_default_img=ImageTk.PhotoImage(Image.open("USER QUESTION MARK.png"))
     
-    rock_img_comp=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/COMPUTER ROCK.png"))
-    paper_img_comp=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/COMPUTER PAPER.png"))
-    scissor_img_comp=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/COMPUTER SCISSOR.png"))
+    rock_img_comp=ImageTk.PhotoImage(Image.open("COMPUTER ROCK.png"))
+    paper_img_comp=ImageTk.PhotoImage(Image.open("COMPUTER PAPER.png"))
+    scissor_img_comp=ImageTk.PhotoImage(Image.open("COMPUTER SCISSOR.png"))
 
-    comp_default_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/COMPUTER QUESTION MARK.png"))
+    comp_default_img=ImageTk.PhotoImage(Image.open("COMPUTER QUESTION MARK.png"))
 
     #STEP 5. DEFAULT PIC
     user_lb=Label(f,image=user_default_img,bg="#09568e")
@@ -175,9 +175,9 @@ def resultsection(user,comp):
     hd1=Label(root1,text="Rock Paper Scissor Game \n Here Is The Result",font=('Times',50),fg="#1939d2",bg="#FFED93").pack(pady=1)
 
     #nessesary photo for result
-    draw_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/YOU DRAW.png"))
-    win_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/YOU WIN.png"))
-    lose_img=ImageTk.PhotoImage(Image.open("C:/Users/INTEL/OneDrive/INTERNSHIP ON ROCK PAPER SCISSOR/YOU LOSE.png"))
+    draw_img=ImageTk.PhotoImage(Image.open("YOU DRAW.png"))
+    win_img=ImageTk.PhotoImage(Image.open("YOU WIN.png"))
+    lose_img=ImageTk.PhotoImage(Image.open("YOU LOSE.png"))
 
     
     #messege declaration part
